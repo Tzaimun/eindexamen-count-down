@@ -1,0 +1,17 @@
+{
+  "name": "eindexamen-count-down",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "create-react-app": "^4.0.3",
+    "styled-components": "^5.2.3",
+    "styled-icons": "^10.33.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

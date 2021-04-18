@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Torrance';
+  src: local('Torrance'), url('./fonts/Torrance-lgZl0.ttf') format('truetype');
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+* {
+  font-family: Torrance, serif;
+}
