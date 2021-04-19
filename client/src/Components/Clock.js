@@ -47,7 +47,7 @@ const StyledHeader = styled.h1`
 const StyledParagraph = styled.p`
   text-align: center;
   color: ${props => props.theme.scheme.highlight};
-  font-size: 1.6em;
+  font-size: 2em;
   margin-top: 2em;
   font-weight
 `

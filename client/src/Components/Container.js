@@ -1,5 +1,6 @@
 import Title from './Title'
 import Clock from './Clock'
+import Button from './Button'
 import styled from 'styled-components'
 
 function Container() {
@@ -7,6 +8,7 @@ function Container() {
     <StyledContainer className="Container">
       <Title></Title>
       <Clock></Clock>
+      <Button></Button>
     </StyledContainer>
 
   );

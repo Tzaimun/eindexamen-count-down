@@ -1,10 +1,13 @@
 import { schemes } from './schemes'
 
-const randomInt = Math.floor(Math.random(0, schemes.length) * schemes.length)
-const scheme = schemes[randomInt]
-console.log(schemes);
-console.log(scheme)
-console.log(randomInt)
+export const newScheme = () => {
+  const randomInt = Math.floor(Math.random(0, schemes.length) * schemes.length)
+  const scheme = schemes[randomInt]
+  return scheme;
+}
+
+const scheme = newScheme()
+
 
 const theme = {
   borderRadius: 12,
