@@ -1,5 +1,5 @@
-import { useState, useContext, useEffect } from 'react'
-import styled, { ThemeContext } from 'styled-components'
+import { useState, useEffect } from 'react'
+import styled from 'styled-components'
 
 
 function Clock() {
@@ -20,7 +20,6 @@ function Clock() {
   }
 
   const [timeLeft, setTimeLeft] = useState(calculateCountdown());
-  const { color, spacing } = useContext(ThemeContext)
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -39,21 +38,18 @@ function Clock() {
 
 const StyledHeader = styled.h1`
   text-align: center;
-  color: ${props => props.theme.scheme.secondary};
+  color: ${props => props.theme.secondary};
   font-size: 3em;
-  margin-bottom: 1em;
 `
 
 const StyledParagraph = styled.p`
   text-align: center;
-  color: ${props => props.theme.scheme.highlight};
+  color: ${props => props.theme.highlight};
   font-size: 2em;
-  margin-top: 2em;
   font-weight
 `
   
 const StyledDiv = styled.div`
-  margin: 1em 0 1em 0;
 `
 export default Clock;
   

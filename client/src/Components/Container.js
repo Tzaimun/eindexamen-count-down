@@ -18,10 +18,10 @@ const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   height: 100%;
   width: 80vw;
-  padding: 0 10vw 0 10vw;
+  padding: 5vh 10vw 0 10vw;
   
 `
 

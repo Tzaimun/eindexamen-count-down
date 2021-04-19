@@ -10,7 +10,6 @@ function Title() {
 
 const StyledTitle = styled.h1`
   text-align: center;
-  color: ${props => props.theme.scheme.primary};
-  margin: -3.5em 0em 3em 0em;
+  color: ${props => props.theme.primary};
 `
 export default Title;
