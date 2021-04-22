@@ -61,8 +61,6 @@ const themes = {
 
 const GlobalStyle = createGlobalStyle`
  * {
-   margin: 0;
-   padding: 0;
    transition: all 0.5s;
  }
 `

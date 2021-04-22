@@ -1,11 +1,16 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useContext } from 'react'
 import styled from 'styled-components'
-
+import { ExamContext } from '../Context/ExamProvider'
+import { exams } from '../Constants/exams'
 
 function Clock() {
 
+  const {currentExam} = useContext(ExamContext)
+  console.log(currentExam)
+
   const calculateCountdown = () => {
-    let difference = +new Date("May 19, 2021 07:00:00") - +new Date();
+    const examDate = exams[currentExam]
+    let difference = +examDate - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {

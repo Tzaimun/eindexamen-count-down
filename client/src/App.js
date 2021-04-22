@@ -2,16 +2,19 @@ import styled  from 'styled-components'
 import Container from './Components/Container'
 import Theme from './Components/Theme'
 import { ThemeStore } from './Context/ThemeStore'
+import ExamProvider from './Context/ExamProvider'
 
 function App() {
   return (
     <ThemeStore>
       <Theme>
-        <StyledApp>
-          <header className="App-header">
-          </header>
-          <Container></Container>
-        </StyledApp>
+        <ExamProvider>
+          <StyledApp>
+            <header className="App-header">
+            </header>
+            <Container></Container>
+          </StyledApp>
+        </ExamProvider>
       </Theme>
     </ThemeStore>
   );

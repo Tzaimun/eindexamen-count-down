@@ -4,7 +4,7 @@ import { ThemeContext } from '../Context/ThemeStore'
 
 function Button() {
 
-  const { theme, changeTheme } = useContext(ThemeContext)
+  const { changeTheme } = useContext(ThemeContext)
 
   return (
     <StyledContainer>

@@ -1,4 +1,3 @@
-import { Truenas } from '@styled-icons/simple-icons';
 import React, { useState} from 'react'
 import { themes } from '../Constants/themes'
 
@@ -25,9 +24,6 @@ const ThemeStore = ({ children }) => {
 
     return randomTheme
   }
-
-
-  
 
   const changeTheme = () => setTheme(getRandomTheme())
 

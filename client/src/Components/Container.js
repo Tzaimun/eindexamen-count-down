@@ -4,6 +4,7 @@ import Button from './Button'
 import styled from 'styled-components'
 
 function Container() {
+
   return (
     <StyledContainer className="Container">
       <Title></Title>
@@ -19,9 +20,9 @@ const StyledContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  height: 100%;
+  height: 100vh;
   width: 80vw;
-  padding: 5vh 10vw 0 10vw;
+  padding: 0 10vw 0 10vw;
   
 `
 

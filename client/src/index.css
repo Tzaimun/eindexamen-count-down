@@ -3,11 +3,16 @@
   src: local('Torrance'), url('./fonts/Torrance-lgZl0.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Jetbrains Mono';
+  src: local('Jetbrains Mono'), url('./fonts/JetBrainsMono-Medium.ttf') format('truetype');
+}
+
 body {
   height: 100vh;
   margin: 0;
 }
 
 * {
-  font-family: Torrance, serif;
+  font-family: Jetbrains Mono, serif;
 }
