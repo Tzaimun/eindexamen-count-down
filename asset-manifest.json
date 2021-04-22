@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/eindexamen-count-down/static/css/main.11369540.chunk.css",
-    "main.js": "/eindexamen-count-down/static/js/main.fe561b26.chunk.js",
-    "main.js.map": "/eindexamen-count-down/static/js/main.fe561b26.chunk.js.map",
+    "main.css": "/eindexamen-count-down/static/css/main.62a89d65.chunk.css",
+    "main.js": "/eindexamen-count-down/static/js/main.ae4cee4d.chunk.js",
+    "main.js.map": "/eindexamen-count-down/static/js/main.ae4cee4d.chunk.js.map",
     "runtime-main.js": "/eindexamen-count-down/static/js/runtime-main.c4eeb9e5.js",
     "runtime-main.js.map": "/eindexamen-count-down/static/js/runtime-main.c4eeb9e5.js.map",
-    "static/js/2.80f4bda5.chunk.js": "/eindexamen-count-down/static/js/2.80f4bda5.chunk.js",
-    "static/js/2.80f4bda5.chunk.js.map": "/eindexamen-count-down/static/js/2.80f4bda5.chunk.js.map",
+    "static/js/2.0970a764.chunk.js": "/eindexamen-count-down/static/js/2.0970a764.chunk.js",
+    "static/js/2.0970a764.chunk.js.map": "/eindexamen-count-down/static/js/2.0970a764.chunk.js.map",
     "index.html": "/eindexamen-count-down/index.html",
-    "static/css/main.11369540.chunk.css.map": "/eindexamen-count-down/static/css/main.11369540.chunk.css.map",
-    "static/js/2.80f4bda5.chunk.js.LICENSE.txt": "/eindexamen-count-down/static/js/2.80f4bda5.chunk.js.LICENSE.txt",
+    "static/css/main.62a89d65.chunk.css.map": "/eindexamen-count-down/static/css/main.62a89d65.chunk.css.map",
+    "static/js/2.0970a764.chunk.js.LICENSE.txt": "/eindexamen-count-down/static/js/2.0970a764.chunk.js.LICENSE.txt",
     "static/media/index.css": "/eindexamen-count-down/static/media/Torrance-lgZl0.7304eb09.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.c4eeb9e5.js",
-    "static/js/2.80f4bda5.chunk.js",
-    "static/css/main.11369540.chunk.css",
-    "static/js/main.fe561b26.chunk.js"
+    "static/js/2.0970a764.chunk.js",
+    "static/css/main.62a89d65.chunk.css",
+    "static/js/main.ae4cee4d.chunk.js"
   ]
 }
