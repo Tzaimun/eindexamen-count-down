@@ -25,16 +25,21 @@ function Title() {
 
   return (
     <StyledDiv>
+      <StyleDropdown>
+        <StyledH1Exam>
+          <StyledSpan onClick={() => handleTitleClick()}>{currentExam}</StyledSpan>
+        </StyledH1Exam>
+        {showExams 
+          ? 
+          <StyledUl active={showExams} className="StyledUlComponent">
+              {examList}
+          </StyledUl>
+          : 
+          null}
+      </StyleDropdown> 
       <StyledH1>
-        <StyledSpan onClick={() => handleTitleClick()}>{currentExam}</StyledSpan> Eindexamen
+        <StyledSpan>Eindexamen</StyledSpan>
       </StyledH1>
-      {showExams 
-        ? 
-        <StyledUl active={showExams} className="StyledUlComponent">
-            {examList}
-        </StyledUl>
-        : 
-        null}
     </StyledDiv>
     
   );
@@ -42,11 +47,29 @@ function Title() {
 
 const StyledDiv = styled.div`
   position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  
+`
+
+const StyleDropdown = styled.div`
+  position: relative;
+  width: 14em;
 `
 
 const StyledH1 = styled.h1`
   text-align: center;
   color: ${props => props.theme.primary};
+  margin: 0;
+`
+
+const StyledH1Exam = styled.h1`
+  text-align: center;
+  border-bottom: .1em solid ${props => props.theme.highlight};
+  border-radius: .1em;
+  color: ${props => props.theme.primary};
+  margin: 0;
 `
 
 const StyledSpan = styled.span`
@@ -63,20 +86,16 @@ const StyledUl = styled.ul`
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 3em;
-  left: 4.6em;
-  padding: 0 1em 1em 1em;
+  top: 2em;
+  left: 0em;
+  width: 13em;
+  padding: 0 0em 0em 0em;
   animation: ${
     props => props.active ? 
       css`${MenuAnimation} 0.5s` :
       ''
   };
   transform-origin: top center;
-  
-  @media screen and (min-width: 768px) {
-    top: 3em;
-    left: -1em;
-  }
 `
 
 const StyledLi = styled.li`
